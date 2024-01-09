@@ -1,0 +1,310 @@
+/*Style for container centers the page and sets the element width */
+
+/* mobile layout*/
+@media only screen and (max-width: 867px) 
+{
+	/* background color*/
+	body 
+	{
+		background-color: #08B0D5;
+	}
+
+	img 
+	{
+		max-width: 100%;
+	}
+
+	/* centers top*/
+	header 
+	{
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	/* edits part of title */
+	header h1 
+	{
+		text-align: center;
+		margin-top: 0em;
+		font-size: 3em;
+	}
+
+	/* edits part of title */
+	#secondtitle 
+	{
+		text-align: center;
+		margin-top: -2em;
+		font-size: 0.9em;
+		color: #FFFFFF;
+	}
+
+	/* specifics for nav*/
+	nav 
+	{
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 4em;
+	}
+
+	/* Style specifies nav text */
+	nav ul 
+	{
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	/* Style specifies nav background*/
+	nav li 
+	{
+		background-color:#FFB6C1;
+		border-radius: 2em;
+		list-style-type: none;
+		margin: 0.3em;
+		padding: 0.4em;
+	}
+
+	/* Style for nav links specifies display and padding */
+	nav li a 
+	{
+		text-shadow: 0.2em 0.1em #9494b8;
+	}
+
+	nav li a:link
+	{
+		color: #b300b3;
+	}
+	
+	nav li a:visited
+	{
+		color: #b300b3;
+	}
+	
+	nav li a:hover 
+	{
+		color: #ffffff;
+		font-style: italic;
+	}
+	
+	/* main text and background*/
+	main
+	{
+		background-color: #FFB6C1;
+		border-radius: 2em;
+		text-align: center;
+		padding-bottom: 2em;
+		padding-top: 2em;
+	}
+
+	/* main text*/
+	main p 
+	{
+		margin-left: 2em;
+		margin-right: 2em;
+		font-size: 1.3em;
+		padding-bottom: 0.75em;
+		padding-top: 0.75em;
+		color: #FFFFFF;
+	}
+
+	main ul 
+	{
+		list-style-type: none;
+		padding-right: 2.5em;
+	}
+
+	main li 
+	{
+		padding: 0.2em;
+	}
+
+	main li a:link
+	{
+		color: #b300b3;
+	}
+	
+	main li a:visited 
+	{
+		color: #b300b3;
+	}
+	
+	main li a:hover 
+	{
+		color: #ffffff;
+		font-style: italic;
+	}
+
+	/* footer text */
+	footer 
+	{
+		text-align: center;
+		padding-top: 0.5em;
+		padding-bottom: 1em;
+	}
+	
+	#desktop{
+		display: none;
+	}
+}
+
+/* Desktop layout */
+@media only screen and (min-width: 868px) 
+{
+	#desktop {
+		display: inline;
+	}
+	
+	/* background color*/
+	body 
+	{
+		background-color: #08B0D5;
+	}
+
+	img 
+	{
+		max-width: 100%;
+	}
+
+	header 
+	{
+		padding-right: 1em;
+		text-align: left;
+		padding-top: 1em;
+	}
+
+	/* edits part of title */
+	header h1 
+	{
+		text-align: right;
+		margin-top: -1.5em;
+		font-size: 5em;
+		margin-right: 0.6em;
+	}
+
+	/* edits part of title */
+	#secondtitle 
+	{
+		text-align: right;
+		margin-top: -3em;
+		font-size: 1.5em;
+		padding-right: 1em;
+		margin-right: 1.8em;
+		color: #FFFFFF;
+	}
+	
+	/* Style for nav specifies a float, margin, and width */
+	nav 
+	{
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.25em;
+		font-weight: bold;
+		background-color: #FFB6C1;
+		text-align: center;
+		border-top: 1.0em solid #08B0D5;
+		border-bottom: 0.5em solid #FFB6C1;
+		margin-left: -1em;
+		margin-right: -1em;
+		
+	}
+
+	
+	/* Style specifies margin and padding for the UL within the nav */
+	nav ul 
+	{
+		padding: 0;
+	}
+	
+	/* Style for nav list items specifies a border radius, border, margin, width, and padding */
+	nav li 
+	{
+		border-radius: 2em;
+		list-style-type: none;
+		margin: 0.3em;
+		padding: 0.4em;
+		display: inline;
+	}
+	
+	/* Style for nav links specifies display and padding */
+	nav li a 
+	{
+		text-shadow: 0.2em 0.1em #9494b8;
+	}
+	
+	/* Style rules for pseduo-classes */
+	nav li a:link
+	{
+		color: #b300b3;
+	}
+	
+	nav li a:visited 
+	{
+		color: #b300b3;
+	}
+	
+	nav li a:hover 
+	{
+		color: #ffffff;
+		font-style: italic;
+	}
+
+
+	/* main text and background*/
+	main
+	{
+		background-color: #FFB6C1;
+		border-radius: 0em;
+		text-align: center;
+		padding-bottom: 2em;
+		margin-left: -1em;
+		margin-right: -1em;
+	}
+
+	/* main text*/
+	main p 
+	{
+		margin-left: 2em;
+		margin-right: 2em;
+		font-size: 1.3em;
+		padding-bottom: 0.75em;
+		padding-top: 0.75em;
+		color: #FFFFFF;
+	}
+
+	main ul 
+	{
+		list-style-type: none;
+		padding-right: 2.5em;
+	}
+
+	main li 
+	{
+		padding: 0.2em;
+	}
+
+	main li a:link
+	{
+		color: #b300b3;
+	}
+	
+	main li a:visited 
+	{
+		color: #b300b3;
+	}
+	
+	main li a:hover 
+	{
+		color: #ffffff;
+		font-style: italic;
+	}
+
+/* footer text */
+	footer 
+	{
+		text-align: center;
+		padding-top: 0.5em;
+		padding-bottom: 1em;
+		background-color: #08B0D5;
+	}
+}
